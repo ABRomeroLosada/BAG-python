@@ -1,8 +1,3 @@
-(-(-2) + sqrt((-2)^2 - (4*(-1)*3)))/(2 * (-1))
-
-
-( -(-2) - sqrt((-2)^2 - (4*(-1)*3)))/(2 * (-1))
-
 
 ##### Funcion calculadora
 a=1
@@ -34,3 +29,18 @@ calculadora <- function(a,b,c)
 }
 
 calculadora(a=-2,b=9,c=5)
+
+#Declara una variable llamada x que valga 2
+#Súmale 2 a x
+x<-2
+x<-x+2
+
+#Declara una variable llamada palabra que valga "hola"
+#Cuadrupicla la variable palabra
+palabra <- "hola"
+rep(palabra, 4)
+
+#añade las palabras "mundo que tal" a palabra
+palabra <- c(palabra, "mundo", "que", "tal")
+#encuentra en que posicion está mundo
+which(palabra=="mundo")
