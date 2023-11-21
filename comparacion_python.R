@@ -1,8 +1,5 @@
-
 ##### Funcion calculadora
-a=1
-b=2
-c=1
+
 calculadora <- function(a,b,c)
 {
   previo <- (b)^2 - (4*(a)*c)
@@ -13,6 +10,7 @@ calculadora <- function(a,b,c)
   {
     sol1 <- (-(b) + sqrt((b)^2 - (4*(a)*c)))/(2 * (a))
     sol2 <- (-(b) - sqrt((b)^2 - (4*(a)*c)))/(2 * (a))
+    
     test1 <- (a*(sol1)^2) + (b*sol1) + c
     test2 <- (a*(sol2)^2) + (b*sol2) + c
     if (round(test1) == 0 && round(test2) == 0)
@@ -28,10 +26,25 @@ calculadora <- function(a,b,c)
   }
 }
 
-calculadora(a=-2,b=9,c=5)
+valores <- calculadora(a=2,b=4,c=2)
 
 #Declara una variable llamada x que valga 2
 #Súmale 2 a x
+x<-2
+x<-x+2
+c(3,5,76)
+rep()
+seq()
+list()
+matrix()
+data.frame()
+
+
+
+
+
+
+
 x<-2
 x<-x+2
 
